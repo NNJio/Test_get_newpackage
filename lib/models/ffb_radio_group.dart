@@ -13,7 +13,14 @@ class RadioGroup extends StatelessWidget {
       decoration: InputDecoration(labelText: 'วันนี้ทานอะไรดีน้า'),
       name: 'my',
       validator: FormBuilderValidators.required(),
-      options: ['ส้มตำ', 'กระเพรา', 'ต้มยำ', 'ก๋วยเตี๋ยว', 'หมูกระเทียม', 'ไม่ทานลดความอ้วน']
+      options: [
+        'ส้มตำ',
+        'กระเพรา',
+        'ต้มยำ',
+        'ก๋วยเตี๋ยว',
+        'หมูกระเทียม',
+        'ไม่ทานลดความอ้วน'
+      ]
           .map((lang) => FormBuilderFieldOption(value: lang))
           .toList(growable: false),
     );

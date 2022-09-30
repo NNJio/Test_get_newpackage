@@ -5,7 +5,8 @@ class DTP extends StatelessWidget {
   const DTP({
     Key? key,
     required GlobalKey<FormBuilderState> formKey,
-  }) : _formKey = formKey, super(key: key);
+  })  : _formKey = formKey,
+        super(key: key);
 
   final GlobalKey<FormBuilderState> _formKey;
 
