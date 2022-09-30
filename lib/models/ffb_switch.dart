@@ -10,7 +10,7 @@ class FFBSwitch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FormBuilderSwitch(
-      title: const Text('I Accept the terms and conditions'),
+      title: const Text('ฉันยอมรับข้อกำหนดและเงื่อนไขต่างๆ'),
       name: 'accept_terms_switch',
       initialValue: true,
       onChanged: _onChanged,

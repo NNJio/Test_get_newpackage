@@ -24,7 +24,7 @@ class FFBDropDown extends StatelessWidget {
             _formKey.currentState!.fields['gender']?.reset();
           },
         ),
-        hintText: 'Select Gender',
+        // hintText: 'Select Gender',
       ),
       items: genderOptions
           .map((gender) => DropdownMenuItem(

@@ -12,29 +12,25 @@ class ChoiceChips extends StatelessWidget {
     return FormBuilderChoiceChip<String>(
       autovalidateMode: AutovalidateMode.onUserInteraction,
       decoration: const InputDecoration(
-          labelText: 'Ok, if I had to choose one language, it would be:'),
+          labelText: 'กรุณาเลือกจังหวัดให้บริการ'),
       name: 'languages_choice',
       initialValue: 'Dart',
+      selectedColor: Color(0xFF2a9d8f),
       options: const [
         FormBuilderChipOption(
-          value: 'Dart',
-          avatar: CircleAvatar(child: Text('D')),
+          value: 'กรุงเทพมหานคร',
         ),
         FormBuilderChipOption(
-          value: 'Kotlin',
-          avatar: CircleAvatar(child: Text('K')),
+          value: 'สมุทรปราการ',
         ),
         FormBuilderChipOption(
-          value: 'Java',
-          avatar: CircleAvatar(child: Text('J')),
+          value: 'นนทบุรี',
         ),
         FormBuilderChipOption(
-          value: 'Swift',
-          avatar: CircleAvatar(child: Text('S')),
+          value: 'ปทุมธานี',
         ),
         FormBuilderChipOption(
-          value: 'Objective-C',
-          avatar: CircleAvatar(child: Text('O')),
+          value: 'สมุทรสาคร',
         ),
       ],
       onChanged: _onChanged,

@@ -11,7 +11,7 @@ class SegmentedControl extends StatelessWidget {
   Widget build(BuildContext context) {
     return FormBuilderSegmentedControl(
       decoration: const InputDecoration(
-        labelText: 'Movie Rating (Archer)',
+        labelText: 'ให้คะแนนความพอใจในการบริการ ( 5 = พอใจมาก )',
       ),
       name: 'movie_rating',
       options: List.generate(5, (i) => i + 1)

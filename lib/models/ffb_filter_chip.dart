@@ -11,29 +11,33 @@ class FilterChips extends StatelessWidget {
   Widget build(BuildContext context) {
     return FormBuilderFilterChip<String>(
       autovalidateMode: AutovalidateMode.onUserInteraction,
-      decoration: const InputDecoration(labelText: 'The language of my people'),
+      decoration: const InputDecoration(labelText: 'เลือกยี้ห้อการ์ดจอที่คุณต้องการ'),
       name: 'languages_filter',
-      selectedColor: Colors.red,
+      selectedColor: Color(0xFFe9c46a),
       options: const [
         FormBuilderChipOption(
-          value: 'Dart',
-          avatar: CircleAvatar(child: Text('D')),
+          value: 'GIGABYTE',
+          avatar: CircleAvatar(child: Text('G')),
         ),
         FormBuilderChipOption(
-          value: 'Kotlin',
-          avatar: CircleAvatar(child: Text('K')),
+          value: 'MSI',
+          avatar: CircleAvatar(child: Text('M')),
         ),
         FormBuilderChipOption(
-          value: 'Java',
-          avatar: CircleAvatar(child: Text('J')),
+          value: 'GALAX',
+          avatar: CircleAvatar(child: Text('G')),
         ),
         FormBuilderChipOption(
-          value: 'Swift',
-          avatar: CircleAvatar(child: Text('S')),
+          value: 'INNO3D',
+          avatar: CircleAvatar(child: Text('I')),
         ),
         FormBuilderChipOption(
-          value: 'Objective-C',
-          avatar: CircleAvatar(child: Text('O')),
+          value: 'ASUS',
+          avatar: CircleAvatar(child: Text('A')),
+        ),
+        FormBuilderChipOption(
+          value: 'ZOTAC',
+          avatar: CircleAvatar(child: Text('Z')),
         ),
       ],
       onChanged: _onChanged,

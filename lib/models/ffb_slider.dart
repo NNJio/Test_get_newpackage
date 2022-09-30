@@ -16,13 +16,13 @@ class FFBSlider extends StatelessWidget {
       ]),
       onChanged: _onChanged,
       min: 0.0,
-      max: 10.0,
-      initialValue: 7.0,
+      max: 100.0,
+      initialValue: 50.0,
       divisions: 20,
-      activeColor: Colors.red,
-      inactiveColor: Colors.pink[100],
+      activeColor: Color(0xFF2a9d8f),
+      inactiveColor: Color(0xFFe9c46a),
       decoration: const InputDecoration(
-        labelText: 'Number of things',
+        labelText: 'ปรับความไวเมาส์',
       ),
     );
   }

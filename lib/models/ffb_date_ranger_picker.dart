@@ -22,8 +22,7 @@ class DRP extends StatelessWidget {
       format: DateFormat('yyyy-MM-dd'),
       onChanged: _onChanged,
       decoration: InputDecoration(
-        labelText: 'Select a check-in and check-out date',
-        helperText: 'Helper text',
+        labelText: 'เลือกวันเช็คอิน - เช็คเอาท์',
         hintText: 'Hint text',
         suffixIcon: IconButton(
           icon: const Icon(Icons.close),

@@ -30,20 +30,21 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
-          child: Column(children: <Widget>[
+          child: Column(
+            children: <Widget>[
               DTP(formKey: _formKey),
               DRP(formKey: _formKey),
               FFBTextField(formKey: _formKey),
               FFBDropDown(formKey: _formKey),
               const FFBSlider(),
-              const FFBCheckbox(),
               const RadioGroup(),
               const SegmentedControl(),
-              const FFBSwitch(),
               const CheckBoxGroup(),
               const FilterChips(),
               const ChoiceChips(),
               const RangSlider(),
+              const FFBSwitch(),
+              const FFBCheckbox(),
             ]
           ),
         ),

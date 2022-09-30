@@ -18,7 +18,7 @@ class DTP extends StatelessWidget {
       initialValue: DateTime.now(),
       inputType: InputType.both,
       decoration: InputDecoration(
-        labelText: 'Select Date and Time',
+        labelText: 'เลือกวันที่และเวลา',
         suffixIcon: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () {

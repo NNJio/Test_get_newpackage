@@ -11,7 +11,7 @@ class CheckBoxGroup extends StatelessWidget {
   Widget build(BuildContext context) {
     return FormBuilderCheckboxGroup<String>(
       autovalidateMode: AutovalidateMode.onUserInteraction,
-      decoration: const InputDecoration(labelText: 'The language of my people'),
+      decoration: const InputDecoration(labelText: 'คุณสามารถใช้ภาษาไหนได้บ้าง'),
       name: 'languages',
       options: const [
         FormBuilderFieldOption(value: 'Dart'),

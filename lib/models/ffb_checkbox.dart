@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
-import 'package:form_builder_validators/form_builder_validators.dart';
+// import 'package:form_builder_validators/form_builder_validators.dart';
 
 class FFBCheckbox extends StatelessWidget {
   const FFBCheckbox({
@@ -18,20 +18,20 @@ class FFBCheckbox extends StatelessWidget {
         text: const TextSpan(
           children: [
             TextSpan(
-              text: 'I have read and agree to the ',
+              text: 'ฉันได้อ่านและยอมรับ ',
               style: TextStyle(color: Colors.black),
             ),
             TextSpan(
-              text: 'Terms and Conditions',
+              text: 'ข้อกำหนดและเงื่อนไข',
               style: TextStyle(color: Colors.blue),
             ),
           ],
         ),
       ),
-      validator: FormBuilderValidators.equal(
-        true,
-        errorText: 'You must accept terms and conditions to continue',
-      ),
+      // validator: FormBuilderValidators.equal(
+      //   true,
+      //   errorText: 'You must accept terms and conditions to continue',
+      // ),
     );
   }
 }

@@ -14,12 +14,12 @@ class RangSlider extends StatelessWidget {
       // validator: FormBuilderValidators.compose([FormBuilderValidators.min(context, 6)]),
       onChanged: _onChanged,
       min: 0.0,
-      max: 100.0,
+      max: 100000.0,
       initialValue: const RangeValues(4, 7),
       divisions: 20,
-      activeColor: Colors.red,
-      inactiveColor: Colors.pink[100],
-      decoration: const InputDecoration(labelText: 'Price Range'),
+      activeColor: Color(0xFF2a9d8f),
+      inactiveColor: Color(0xFFe9c46a),
+      decoration: const InputDecoration(labelText: 'เลือกช่วงราคาของสินค้า'),
     );
   }
 }
