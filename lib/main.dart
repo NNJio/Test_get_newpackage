@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_get_package/screens/home.dart';
 
+import 'Example.dart';
+
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -14,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blueGrey,
       ),
       home: const MyHomePage(),
+      // home: const CompleteForm(),
       
     );
   }
