@@ -7,6 +7,7 @@ import '../models/ffb_date_ranger_picker.dart';
 import '../models/ffb_date_time_picker.dart';
 import '../models/ffb_dropdown.dart';
 import '../models/ffb_radio_group.dart';
+import '../models/ffb_segmented_control.dart';
 import '../models/ffb_text_field.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -18,6 +19,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _formKey = GlobalKey<FormBuilderState>();
+  
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +36,9 @@ class _MyHomePageState extends State<MyHomePage> {
             FFBTextField(formKey: _formKey),
             FFBDropDown(formKey: _formKey),
             RadioGroup(),
+            SegmentedControl(),
+
+            
   
 
             
