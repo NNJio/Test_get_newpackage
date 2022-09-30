@@ -17,7 +17,8 @@ class FFBTextField extends StatelessWidget {
       child: FormBuilderTextField(
         name: 'text',
         onChanged: (val) {
-          print(val); // Print the text value write into TextField
+          // ignore: avoid_print
+          print(val);
         },
       ),
     );

@@ -10,7 +10,7 @@ class RadioGroup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FormBuilderRadioGroup(
-      decoration: InputDecoration(labelText: 'วันนี้ทานอะไรดีน้า'),
+      decoration: const InputDecoration(labelText: 'วันนี้ทานอะไรดีน้า'),
       name: 'my',
       validator: FormBuilderValidators.required(),
       options: [

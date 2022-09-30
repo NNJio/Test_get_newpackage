@@ -16,12 +16,11 @@ import '../models/ffb_text_field.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
-
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
-
 class _MyHomePageState extends State<MyHomePage> {
+
   final _formKey = GlobalKey<FormBuilderState>();
 
   @override
@@ -32,20 +31,21 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
           child: Column(children: <Widget>[
-            DTP(formKey: _formKey),
-            DRP(formKey: _formKey),
-            FFBTextField(formKey: _formKey),
-            FFBDropDown(formKey: _formKey),
-            const FFBSlider(),
-            const FFBCheckbox(),
-            const RadioGroup(),
-            const SegmentedControl(),
-            const FFBSwitch(),
-            const CheckBoxGroup(),
-            const FilterChips(),
-            const ChoiceChips(),
-            const RangSlider(),
-          ]),
+              DTP(formKey: _formKey),
+              DRP(formKey: _formKey),
+              FFBTextField(formKey: _formKey),
+              FFBDropDown(formKey: _formKey),
+              const FFBSlider(),
+              const FFBCheckbox(),
+              const RadioGroup(),
+              const SegmentedControl(),
+              const FFBSwitch(),
+              const CheckBoxGroup(),
+              const FilterChips(),
+              const ChoiceChips(),
+              const RangSlider(),
+            ]
+          ),
         ),
       ),
     );
