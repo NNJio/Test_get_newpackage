@@ -4,6 +4,7 @@ import 'package:flutter_get_package/models/ffb_slider.dart';
 import '../models/ffb_checkbox.dart';
 import '../models/ffb_date_ranger_picker.dart';
 import '../models/ffb_date_time_picker.dart';
+import '../models/ffb_dropdown.dart';
 import '../models/ffb_text_field.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -23,29 +24,16 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
+          child: Column(children: <Widget>[
             DTP(formKey: _formKey),
             DRP(formKey: _formKey),
             FFBSlider(),
             FFBCheckbox(),
-            FFBTextField(formKey: _formKey)
-            
-            
-            
-
-            
-            
-            
+            FFBTextField(formKey: _formKey),
+            FFBDropDown(formKey: _formKey),
           ]),
         ),
       ),
     );
   }
 }
-
-
-
-
-
-
