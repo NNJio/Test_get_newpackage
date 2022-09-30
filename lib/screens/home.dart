@@ -4,6 +4,7 @@ import 'package:flutter_get_package/models/ffb_slider.dart';
 import '../models/ffb_checkbox.dart';
 import '../models/ffb_date_ranger_picker.dart';
 import '../models/ffb_date_time_picker.dart';
+import '../models/ffb_text_field.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -28,6 +29,11 @@ class _MyHomePageState extends State<MyHomePage> {
             DRP(formKey: _formKey),
             FFBSlider(),
             FFBCheckbox(),
+            FFBTextField(formKey: _formKey)
+            
+            
+            
+
             
             
             
@@ -37,6 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
 
 
 
