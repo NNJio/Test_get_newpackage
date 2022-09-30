@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
-import 'package:intl/intl.dart';
+import 'package:flutter_get_package/models/ffb_slider.dart';
+import '../models/ffb_checkbox.dart';
 import '../models/ffb_date_ranger_picker.dart';
 import '../models/ffb_date_time_picker.dart';
 
@@ -13,7 +14,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _formKey = GlobalKey<FormBuilderState>();
-  void _onChanged(dynamic val) => debugPrint(val.toString());
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +26,8 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
             DTP(formKey: _formKey),
             DRP(formKey: _formKey),
+            FFBSlider(),
+            FFBCheckbox(),
             
             
             
@@ -35,3 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+
+

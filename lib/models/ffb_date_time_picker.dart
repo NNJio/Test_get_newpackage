@@ -17,7 +17,7 @@ class DTP extends StatelessWidget {
       initialValue: DateTime.now(),
       inputType: InputType.both,
       decoration: InputDecoration(
-        labelText: 'Appointment Time',
+        labelText: 'Select Date and Time',
         suffixIcon: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () {
