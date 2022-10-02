@@ -19,8 +19,8 @@ class FFBSlider extends StatelessWidget {
       max: 100.0,
       initialValue: 50.0,
       divisions: 20,
-      activeColor: Color(0xFF2a9d8f),
-      inactiveColor: Color(0xFFe9c46a),
+      activeColor: const Color(0xFF2a9d8f),
+      inactiveColor: const Color(0xFFe9c46a),
       decoration: const InputDecoration(
         labelText: 'ปรับความไวเมาส์',
       ),

@@ -17,8 +17,8 @@ class RangSlider extends StatelessWidget {
       max: 100000.0,
       initialValue: const RangeValues(4, 7),
       divisions: 20,
-      activeColor: Color(0xFF2a9d8f),
-      inactiveColor: Color(0xFFe9c46a),
+      activeColor: const Color(0xFF2a9d8f),
+      inactiveColor: const Color(0xFFe9c46a),
       decoration: const InputDecoration(labelText: 'เลือกช่วงราคาของสินค้า'),
     );
   }

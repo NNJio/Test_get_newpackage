@@ -15,7 +15,7 @@ class ChoiceChips extends StatelessWidget {
           labelText: 'กรุณาเลือกจังหวัดให้บริการ'),
       name: 'languages_choice',
       initialValue: 'Dart',
-      selectedColor: Color(0xFF2a9d8f),
+      selectedColor: const Color(0xFF2a9d8f),
       options: const [
         FormBuilderChipOption(
           value: 'กรุงเทพมหานคร',

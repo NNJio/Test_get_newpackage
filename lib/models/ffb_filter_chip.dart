@@ -13,7 +13,7 @@ class FilterChips extends StatelessWidget {
       autovalidateMode: AutovalidateMode.onUserInteraction,
       decoration: const InputDecoration(labelText: 'เลือกยี้ห้อการ์ดจอที่คุณต้องการ'),
       name: 'languages_filter',
-      selectedColor: Color(0xFFe9c46a),
+      selectedColor: const Color(0xFFe9c46a),
       options: const [
         FormBuilderChipOption(
           value: 'GIGABYTE',
